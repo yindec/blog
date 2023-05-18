@@ -61,5 +61,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-node_modules/       # 过滤整个文件夹
+# 过滤整个文件夹
+node_modules/       
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,hugo

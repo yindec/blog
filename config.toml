@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Hey! I'm yindec"
       introSubtitle = "On my own, 哎 中文试验"
-      introPhoto = "/picture.jpg"
+      introPhoto = "girl.jpg"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
