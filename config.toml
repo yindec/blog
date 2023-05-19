@@ -3,44 +3,19 @@ languageCode = 'en-us'
 title = 'yindec blog'
 metaDataFormat = "yaml"
 theme = "blist"
-
-DefaultContentLanguage = "zh"
+  
+DefaultContentLanguage = 'en'
 DefaultContentLanguageInSubdir = true
-[languages]
-  [languages.zh]
-    contentDir = "content/zh" #中文
-    weight = 1
-    languageName = "简体中文"
-    [languages.zh.params]
-      introTitle = "嗨"
-      introSubtitle = "有志者，事竟成"
-      introPhoto = "/girl.jpg"
-      logo = "/blist-logo.png"
-    [[languages.zh.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 1
-
-    [[languages.zh.menu.main]]
-        name = "关于"
-        url = "page/about/"
-        weight = 2
-
-    [[languages.zh.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
-        
   [languages.en]
     contentDir = "content/en" #English
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Hey! I'm yindec"
-      introSubtitle = "On my own, 哎 中文试验"
+      introTitle = "Hey! I'm Katheryn Fox"
+      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
       introPhoto = "/girl.jpg"
     [[languages.en.menu.main]]
-        name = "Blog"
+        name = "日志"
         url = "blog"
         weight = 1
 
@@ -58,9 +33,7 @@ DefaultContentLanguageInSubdir = true
         name = "Top Post"
         url = "/en/blog/emoji-support/"
         weight = 4
-     
-
-        
+ 
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
@@ -100,7 +73,7 @@ DefaultContentLanguageInSubdir = true
 
   # To hide "Other languages" option if the post is available in multiple languages
   # Can be used at site level or page level
-  hideOtherLanguages = false
+  hideOtherLanguages = true
 
   # Add support for Table of contents
   # Can be added to a page level also in markdown frontmatter
@@ -109,7 +82,7 @@ DefaultContentLanguageInSubdir = true
   # Hides the thumbnail in post view
   # Thumbnails in home and blog pages will still be shown
   # This setting can also be in page's markdown file
-  hidePageThumbnail = false
+  hidePageThumbnail = true
 
 # Comments system
 [params.comments]
