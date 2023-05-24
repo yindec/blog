@@ -15,7 +15,7 @@ DefaultContentLanguageInSubdir = true
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
       introPhoto = "/girl.jpg"
     [[languages.en.menu.main]]
-        name = "日志"
+        name = "blog"
         url = "blog"
         weight = 1
 
@@ -31,7 +31,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Top Post"
-        url = "/en/blog/emoji-support/"
+        url = "/blog/板绘/"
         weight = 4
  
 [params]
