@@ -12,7 +12,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Katheryn Fox"
-      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
+      introSubtitle = "I am chengyin"
       introPhoto = "/girl.jpg"
     [[languages.en.menu.main]]
         name = "blog"
